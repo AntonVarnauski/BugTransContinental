@@ -278,11 +278,16 @@
     content: url(../img/icon_arrow.svg);
     margin-left: 15px;
     position: relative;
-}
-
-.more_btn:hover::after {
     animation-name: bounce;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+}
+
+.more_btn:hover::after {
+    animation-play-state: paused;
+}
+
+.services {
+    background: url(../img/uslugi_back.png) no-repeat center center cover;
 }
