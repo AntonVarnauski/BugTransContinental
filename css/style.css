@@ -25,7 +25,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 15%;
 }
 
 .header::after {
@@ -83,6 +82,7 @@
     position: relative;
     z-index: 3;
     color: white;
+    margin-right: 50px;
 }
 
 .main_text {
@@ -100,4 +100,189 @@
     padding: 15px 10px;
     border-radius: 5px;
     margin-top: 30px;
+}
+
+.social_links {
+    margin: 0 50px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_links::before {
+    content: '';
+    height: 150px;
+    width: 2px;
+    background-color: white;
+}
+
+.social_links::after {
+    content: '';
+    height: 150px;
+    width: 2px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.social_item {
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.fb {
+    background: url(../img/fb.svg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fb:hover {
+    background-image: url(../img/fb_hover.svg);
+    transition: .5s;
+}
+
+.inst {
+    background: url(../img/inst.svg) no-repeat center center;
+    background-size: 100% 100%;
+    transition: .5s;
+}
+
+.inst:hover {
+    background-image: url(../img/inst_hover.svg);
+    transition: .5s;
+}
+
+.linked {
+    background: url(../img/linked.svg) no-repeat center center;
+    background-size: 100% 100%;
+    transition: .5s;
+}
+
+.linked:hover {
+    background-image: url(../img/linked_hover.svg);
+    transition: .5s;
+}
+
+.about_us {
+    background-image: url(../img/about_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 5% 10%;
+}
+
+.about_title {
+    color: #FF9700;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title_big {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about_title::after {
+    content: '';
+    width: 200px;
+    margin-left: 50px;
+    height: 2px;
+    display: inline-block;
+    background-color: #FF9700;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.about_text {
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.advantages_title {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.advantages {
+    width: 80%;
+    background-color: #FF9700;
+    margin-left: -15%;
+    margin-top: 20px;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages_list {
+    margin-left: 10%;
+}
+
+.advantages_item {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.advantages_icon {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.ok::before {
+    content: url(../img/icon_ok.svg);
+    margin-left: 20%;
+}
+
+.box::before {
+    content: url(../img/icon_box.svg);
+    margin-left: 20%;
+}
+
+.marker::before {
+    content: url(../img/icon_marker.svg);
+    margin-left: 20%;
+}
+
+.watch::before {
+    content: url(../img/icon_watch.svg);
+    margin-left: 20%;
+}
+
+.more_btn {
+    align-self: flex-end;
+    color: black;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+@keyframes bounce {
+    from {
+        left: 0;
+    }
+    to {
+        left: 20px;
+    }
+}
+
+.more_btn::after {
+    content: url(../img/icon_arrow.svg);
+    margin-left: 15px;
+    position: relative;
+}
+
+.more_btn:hover::after {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
