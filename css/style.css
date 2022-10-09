@@ -598,3 +598,14 @@
     color: white;
     transition: .5s;
 }
+
+.copyright {
+    background-color: rgba(14, 83, 167, 0.5);
+    padding-bottom: 2%;
+}
+
+.copyright_text {
+    color: gray;
+    text-align: center;
+    line-height: 25px;
+}
