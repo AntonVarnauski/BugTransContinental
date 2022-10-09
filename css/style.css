@@ -103,7 +103,8 @@
 }
 
 .social_links {
-    margin: 0 50px;
+    margin: 0;
+    margin-right: 7%;
     position: relative;
     z-index: 3;
     display: flex;
@@ -182,6 +183,7 @@
 .title_big {
     font-size: 40px;
     text-transform: uppercase;
+    color: #FF9700;
 }
 
 .about_title::after {
@@ -197,7 +199,7 @@
 
 .about_text {
     color: white;
-    width: 30%;
+    width: 40%;
     font-size: 20px;
     margin-top: 15px;
 }
@@ -211,7 +213,7 @@
 }
 
 .advantages {
-    width: 80%;
+    width: 85%;
     background-color: #FF9700;
     margin-left: -15%;
     margin-top: 20px;
@@ -262,7 +264,8 @@
     align-self: flex-end;
     color: black;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: -20px;
+    font-weight: 700;
 }
 
 @keyframes bounce {
