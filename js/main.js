@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     var show = true;
     var countbox = ".digits_list";
     $(window).on("scroll load resize", function() {
@@ -19,5 +18,4 @@ $(document).ready(function() {
             show = false;
         }
     });
-
 });

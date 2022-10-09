@@ -475,3 +475,24 @@
     vertical-align: middle;
     margin-left: 40px;
 }
+
+.partners_wrapper {
+    background-color: white;
+    border: 2px solid rgba(14, 83, 167, 0.5);
+    padding: 3%;
+}
+
+.partners_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners_line:nth-child(n+2) {
+    margin-top: 30px;
+}
+
+.partner {
+    height: 70px;
+}
