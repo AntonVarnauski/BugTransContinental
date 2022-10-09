@@ -145,11 +145,26 @@
 .fb {
     background: url(../img/fb.svg) no-repeat center center;
     background-size: 100% 100%;
+    transition: .5s;
+}
+
+.fb_black {
+    background: url(../img/fb_black.svg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.fb_black:hover {
+    background: url(../img/fb.svg) no-repeat center center;
 }
 
 .fb:hover {
     background-image: url(../img/fb_hover.svg);
     transition: .5s;
+}
+
+.inst_black {
+    background: url(../img/inst_black.svg) no-repeat center center;
+    background-size: 100% 100%;
 }
 
 .inst {
@@ -163,10 +178,23 @@
     transition: .5s;
 }
 
+.inst_black:hover {
+    background: url(../img/inst.svg) no-repeat center center;
+}
+
 .linked {
     background: url(../img/linked.svg) no-repeat center center;
     background-size: 100% 100%;
     transition: .5s;
+}
+
+.linked_black {
+    background: url(../img/linked_black.svg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.linked_black:hover {
+    background: url(../img/linked.svg) no-repeat center center;
 }
 
 .linked:hover {
@@ -453,13 +481,16 @@
 }
 
 .partners {
+    margin: 100px 0;
     padding: 5% 10%;
+    padding-top: 0;
     background: linear-gradient(to left, rgba(255, 151, 0, 0) 50%, rgba(14, 83, 167, 0.5) 50%);
 }
 
 .partners_title {
     color: #0E53A7;
     text-align: right;
+    margin-bottom: 50px;
 }
 
 .partners_title>.title_big {
@@ -495,4 +526,75 @@
 
 .partner {
     height: 70px;
+}
+
+.footer {
+    background-color: rgba(14, 83, 167, 0.5);
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.logo_footer {
+    width: 45%;
+}
+
+.footer_info {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_nav {
+    width: 25%;
+}
+
+.footer_menu_item a {
+    color: black;
+    transition: .5s;
+}
+
+.footer_menu_item a:hover {
+    color: white;
+    transition: .5s;
+}
+
+.footer_menu_item {
+    margin-bottom: 15px;
+}
+
+.footer_social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address_title:nth-child(n+2) {
+    margin-top: 30px;
+}
+
+.address_text {
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.address_text a {
+    color: black;
+    transition: .5s;
+}
+
+.address_text a:hover {
+    color: white;
+    transition: .5s;
 }
