@@ -89,7 +89,7 @@
 }
 
 .main_title {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .main_text {
@@ -221,7 +221,7 @@
 }
 
 .advantages {
-    width: 85%;
+    width: 82%;
     background-color: #FF9700;
     margin-left: -15%;
     margin-top: 20px;
@@ -300,5 +300,19 @@
 }
 
 .services {
-    background: url(../img/uslugi_back.png) no-repeat center center cover;
+    background: url(../img/uslugi_back.png) no-repeat center center;
+    background-size: cover;
+    padding: 5%;
+    position: relative;
+}
+
+.services::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.4;
 }
