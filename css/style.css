@@ -451,3 +451,27 @@
     font-weight: 300;
     margin-top: 20px;
 }
+
+.partners {
+    padding: 5% 10%;
+    background: linear-gradient(to left, rgba(255, 151, 0, 0) 50%, rgba(14, 83, 167, 0.5) 50%);
+}
+
+.partners_title {
+    color: #0E53A7;
+    text-align: right;
+}
+
+.partners_title>.title_big {
+    color: #0E53A7;
+}
+
+.partners_title .title_big:after {
+    content: '';
+    width: 150px;
+    height: 2px;
+    display: inline-block;
+    background-color: #FF9700;
+    vertical-align: middle;
+    margin-left: 40px;
+}
