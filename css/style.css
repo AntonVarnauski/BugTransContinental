@@ -302,17 +302,86 @@
 .services {
     background: url(../img/uslugi_back.png) no-repeat center center;
     background-size: cover;
-    padding: 5%;
-    position: relative;
+    padding: 5% 10%;
 }
 
-.services::after {
+.services_title {
+    color: white;
+}
+
+.services_title:before {
     content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    opacity: 0.4;
+    height: 100px;
+    width: 2px;
+    background-color: #FF9700;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.services_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+}
+
+.services_item {
+    background-color: white;
+    width: 30%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.services_item:hover {
+    transform: scale(1.05);
+    border: 5px solid #FF9700;
+    transition: .5s;
+}
+
+.services_icon {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to left, rgba(255, 151, 0, 0) 50%, rgba(255, 151, 0, 0.5) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car::before {
+    content: url(../img/delivery-truck.svg);
+}
+
+.instr::before {
+    content: url(../img/hammer.svg);
+}
+
+.stock::before {
+    content: url(../img/warehouse.svg);
+}
+
+.services_subtitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    width: 75%;
+}
+
+.services_text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    width: 90%;
+}
+
+.services_more {
+    text-transform: uppercase;
+    border-bottom: 2px solid #0E53A7;
+    color: black;
+    margin-top: 30px;
 }
