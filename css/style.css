@@ -101,12 +101,15 @@
 
 .btn_primary {
     display: block;
-    width: 300px;
+    width: 260px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
     color: white;
     background-color: #FF9700;
-    padding: 25px 10px;
+    padding: 20px 10px;
     border-radius: 5px;
     margin-top: 30px;
 }
@@ -138,8 +141,8 @@
 
 .social_item {
     margin-top: 20px;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 
 .fb {
@@ -158,6 +161,7 @@
 }
 
 .fb:hover {
+    transform: scale(1.5);
     background-image: url(../img/fb_hover.svg);
     transition: .5s;
 }
@@ -174,6 +178,7 @@
 }
 
 .inst:hover {
+    transform: scale(1.5);
     background-image: url(../img/inst_hover.svg);
     transition: .5s;
 }
@@ -198,6 +203,7 @@
 }
 
 .linked:hover {
+    transform: scale(1.5);
     background-image: url(../img/linked_hover.svg);
     transition: .5s;
 }
@@ -249,7 +255,7 @@
 }
 
 .advantages {
-    width: 82%;
+    width: 80%;
     background-color: #FF9700;
     margin-left: -15%;
     margin-top: 20px;
@@ -266,6 +272,8 @@
     margin-top: 30px;
     display: flex;
     align-items: center;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .advantages_icon {
@@ -302,6 +310,9 @@
     font-size: 20px;
     margin-top: -20px;
     font-weight: 700;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 @keyframes bounce {
@@ -357,9 +368,10 @@
 .services_item {
     background-color: white;
     width: 30%;
-    padding: 5%;
+    padding: 3%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     border: 5px solid white;
     border-radius: 10px;
@@ -403,8 +415,8 @@
 .services_text {
     text-align: center;
     margin-top: 40px;
-    font-size: 18px;
-    width: 90%;
+    font-size: 20px;
+    width: 100%;
 }
 
 .services_more {
