@@ -112,6 +112,12 @@
     padding: 20px 10px;
     border-radius: 5px;
     margin-top: 30px;
+    transition: .5s;
+}
+
+.btn_primary:hover {
+    box-shadow: 0 0 10px 5px white;
+    transition: .5s;
 }
 
 .social_links {
@@ -158,6 +164,7 @@
 
 .fb_black:hover {
     background: url(../img/fb.svg) no-repeat center center;
+    background-size: 100% 100%;
 }
 
 .fb:hover {
@@ -185,6 +192,7 @@
 
 .inst_black:hover {
     background: url(../img/inst.svg) no-repeat center center;
+    background-size: 100% 100%;
 }
 
 .linked {
@@ -200,6 +208,7 @@
 
 .linked_black:hover {
     background: url(../img/linked.svg) no-repeat center center;
+    background-size: 100% 100%;
 }
 
 .linked:hover {
