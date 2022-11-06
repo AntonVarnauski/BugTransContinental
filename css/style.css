@@ -443,6 +443,10 @@
     content: url(../img/ref_big.svg);
 }
 
+.cont::before {
+    content: url(../img/container.svg);
+}
+
 .instr::before {
     content: url(../img/hammer.svg);
 }
