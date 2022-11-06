@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 * {
     text-decoration: none;
     margin: 0;
@@ -72,6 +72,39 @@
 .menu_link:hover {
     transition: .5s;
     color: #FF9700;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown_menu {
+    position: absolute;
+    left: -20px;
+    background-color: white;
+    padding: 20px;
+    display: none;
+    padding-top: 40px;
+    transition: 1s;
+}
+
+.dropdown_link {
+    margin-top: 20px;
+    border-top: 2px solid gray;
+    padding-top: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.dropdown_link:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.dropdown:hover .dropdown_menu {
+    display: block;
+    transition: 1s;
 }
 
 #language_select {
