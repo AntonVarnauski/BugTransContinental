@@ -439,6 +439,10 @@
     content: url(../img/delivery-truck.svg);
 }
 
+.ref::before {
+    content: url(../img/ref_big.svg);
+}
+
 .instr::before {
     content: url(../img/hammer.svg);
 }
@@ -662,4 +666,50 @@
     color: gray;
     text-align: center;
     line-height: 25px;
+}
+
+.callback {
+    background-color: #0E53A7;
+    padding: 5% 10%;
+    position: relative;
+    margin: 70px 0;
+}
+
+.callback_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+
+.callback_img {
+    position: absolute;
+    right: 5%;
+    overflow: visible;
+    bottom: 0;
+    min-width: 450px;
+}
+
+.call_title {
+    color: white;
+    border-left: 3px solid white;
+    padding-left: 15px;
+}
+
+.call_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.call_text,
+.call_text a {
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+}
+
+.call_text a:hover {
+    color: #FF9700;
+    transition: .5s;
 }
