@@ -52,6 +52,10 @@
     background-image: url(../img/tents_back.png);
 }
 
+.refrig {
+    background-image: url(../img/refrig_back.png);
+}
+
 .truck_title {
     font-size: 20px;
     color: white;
@@ -457,9 +461,10 @@
 }
 
 .category_list {
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background: linear-gradient(to bottom, rgba(255, 151, 0, 0) 20%, white 20%);
 }
 
@@ -517,6 +522,38 @@
 
 .dlinomer::before {
     content: url(../img/icons/dlinomer.svg);
+}
+
+.ovoshi::before {
+    content: url(../img/icons/ovoshi.svg);
+}
+
+.scoroport::before {
+    content: url(../img/icons/scoroport.svg);
+}
+
+.kartina::before {
+    content: url(../img/icons/kartina.svg);
+}
+
+.veshi::before {
+    content: url(../img/icons/veshi.svg);
+}
+
+.money::before {
+    content: url(../img/icons/money.svg);
+}
+
+.medicina::before {
+    content: url(../img/icons/medicina.svg);
+}
+
+.cosmetica::before {
+    content: url(../img/icons/cosmetica.svg);
+}
+
+.zamoroz::before {
+    content: url(../img/icons/zamoroz.svg);
 }
 
 .features {
@@ -588,12 +625,28 @@
 
 .geography_wrapper {
     margin-top: 3%;
-    background-image: url(../img/tent_geo.png);
     background-size: 55%;
     background-position: right center;
     background-repeat: no-repeat;
     position: relative;
     z-index: 2;
+}
+
+.tent_geography {
+    background-image: url(../img/tent_geo.png);
+}
+
+.refrig_geography {
+    background-image: url(../img/refrig_geo.png);
+}
+
+.notification {
+    padding: 0 10%;
+    padding-bottom: 3%;
+}
+
+.notification_item {
+    margin-bottom: 30px;
 }
 
 .geography_wrapper::after {
@@ -648,6 +701,12 @@
 .gallery_link {
     width: 100%;
     overflow: hidden;
+    transition: .5s;
+}
+
+.gallery_link:hover {
+    transform: scale(1.05);
+    transition: .5s;
 }
 
 .gallery_item {
