@@ -56,6 +56,14 @@
     background-image: url(../img/refrig_back.png);
 }
 
+.contvoz {
+    background-image: url(../img/contvoz_back.png);
+}
+
+.perevoz {
+    background-image: url(../img/perevoz_back.jpg);
+}
+
 .truck_title {
     font-size: 20px;
     color: white;
@@ -540,8 +548,24 @@
     content: url(../img/icons/veshi.svg);
 }
 
+.naliv::before {
+    content: url(../img/icons/naliv.svg);
+}
+
+.prom::before {
+    content: url(../img/icons/prom.svg);
+}
+
+.byt::before {
+    content: url(../img/icons/byt.svg);
+}
+
 .money::before {
     content: url(../img/icons/money.svg);
+}
+
+.narod::before {
+    content: url(../img/icons/narod.svg);
 }
 
 .medicina::before {
@@ -640,6 +664,10 @@
     background-image: url(../img/refrig_geo.png);
 }
 
+.contvoz_geography {
+    background-image: url(../img/contvoz_geo.png);
+}
+
 .notification {
     padding: 0 10%;
     padding-bottom: 3%;
@@ -696,6 +724,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    margin-top: 3%;
 }
 
 .gallery_link {
