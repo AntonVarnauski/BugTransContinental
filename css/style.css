@@ -91,13 +91,28 @@
 
 .truck_guy {
     position: absolute;
-    height: 230px
+    height: 230px;
 }
 
 .truck_guys1 {
     top: 0;
     right: -20%;
 }
+
+
+/* .truck_guys1::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(../img/verh_zagr.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+} */
 
 .truck_guys2 {
     bottom: -20px;
@@ -119,6 +134,47 @@
     font-size: 18px;
     color: white;
     margin-bottom: 15px;
+}
+
+.truck_link {
+    text-decoration: underline;
+    color: white;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.truck_link:hover {
+    color: #FF9700;
+    transition: .5s;
+}
+
+.truck_param {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.param_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.param_item {
+    width: 48%;
+    background-color: white;
+    color: #0E53A7;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.param_item:last-child {
+    width: 100%;
 }
 
 .main_nav {
@@ -376,6 +432,91 @@
     margin-top: 25px;
     font-size: 24px;
     font-weight: 700;
+}
+
+.category {
+    background-color: #FF9700;
+    padding: 5% 10%;
+}
+
+.category_title {
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.category_title::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 15%;
+    margin-right: 3%;
+    background-color: white;
+}
+
+.category_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(255, 151, 0, 0) 20%, white 20%);
+}
+
+.category_item {
+    font-size: 20px;
+    text-align: center;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    background-image: url(../img/cat_decor.png);
+    background-position: center left 10%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.category_icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.oborud::before {
+    content: url(../img/icons/oborub.svg);
+}
+
+.metall::before {
+    content: url(../img/icons/metall.svg);
+}
+
+.alko::before {
+    content: url(../img/icons/alko.svg);
+}
+
+.mebel::before {
+    content: url(../img/icons/mebel.svg);
+}
+
+.produkt::before {
+    content: url(../img/icons/produkt.svg);
+}
+
+.opasno::before {
+    content: url(../img/icons/opasno.svg);
+}
+
+.stroy::before {
+    content: url(../img/icons/stroitel.svg);
+}
+
+.dlinomer::before {
+    content: url(../img/icons/dlinomer.svg);
 }
 
 .advantages {
@@ -682,7 +823,7 @@
 }
 
 .logo_footer {
-    width: 45%;
+    width: 35%;
 }
 
 .footer_info {
