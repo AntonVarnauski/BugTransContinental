@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <title>ООО "Буг Транс Континеталь"</title>
     <meta name="description" content="ООО Буг Транс Континеталь">
     <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
@@ -90,53 +91,99 @@
             </div>
         </div>
     </header>
-    <section class="category">
-        <h2 class="category_title">Категории грузов</h2>
-        <ul class="category_list">
-            <li class="category_item">
-                <i class="category_icon oborud"></i>
-                <p class="category_text">Оборудование</p>
-            </li>
-            <li class="category_item">
-                <i class="category_icon metall"></i>
-                <p class="category_text">Изделия из металла</p>
-            </li>
-            <li class="category_item">
-                <i class="category_icon alko"></i>
-                <p class="category_text">Алкогольная продукция</p>
-            </li>
-            <li class="category_item">
-                <i class="category_icon mebel"></i>
-                <p class="category_text">Мебель и инвентарь</p>
-            </li>
-            <li class="category_item">
-                <i class="category_icon produkt"></i>
-                <p class="category_text">Товары народного потребления</p>
-            </li>
-            <li class="category_item">
-                <i class="category_icon opasno"></i>
-                <p class="category_text">Опасные грузы</p>
-            </li>
-            <li class="category_item">
-                <i class="category_icon stroy"></i>
-                <p class="category_text">Строительные материалы</p>
-            </li>
-            <li class="category_item">
-                <i class="category_icon dlinomer"></i>
-                <p class="category_text">Длинномерные грузы</p>
-            </li>
-        </ul>
-    </section>
-    <section class="callback">
-        <div class="callback_wrapper">
-            <h2 class="call_title">Для заказа перевозки <br><span class="title_big">Обращайтесь:</span></h2>
-            <div class="call_contact">
-                <p class="call_text">Телефон: <a href="tel:+375162297134">+375 162 297 134</a>, <a href="tel:375445110077">+375 44 511 00 77</a></p>
-                <p class="call_text">E-mail: <a href="mailto:info@btcontinental.com">info@btcontinental.com</a></p>
+    <main>
+        <section class="category">
+            <h2 class="category_title">Категории грузов</h2>
+            <ul class="category_list">
+                <li class="category_item">
+                    <i class="category_icon oborud"></i>
+                    <p class="category_text">Оборудование</p>
+                </li>
+                <li class="category_item">
+                    <i class="category_icon metall"></i>
+                    <p class="category_text">Изделия из металла</p>
+                </li>
+                <li class="category_item">
+                    <i class="category_icon alko"></i>
+                    <p class="category_text">Алкогольная продукция</p>
+                </li>
+                <li class="category_item">
+                    <i class="category_icon mebel"></i>
+                    <p class="category_text">Мебель и инвентарь</p>
+                </li>
+                <li class="category_item">
+                    <i class="category_icon produkt"></i>
+                    <p class="category_text">Товары народного потребления</p>
+                </li>
+                <li class="category_item">
+                    <i class="category_icon opasno"></i>
+                    <p class="category_text">Опасные грузы</p>
+                </li>
+                <li class="category_item">
+                    <i class="category_icon stroy"></i>
+                    <p class="category_text">Строительные материалы</p>
+                </li>
+                <li class="category_item">
+                    <i class="category_icon dlinomer"></i>
+                    <p class="category_text">Длинномерные грузы</p>
+                </li>
+            </ul>
+        </section>
+        <section class="features">
+            <h3 class="features_title">Дополнительные возможности</h3>
+            <ul class="features_list">
+                <li class="features_item"><i class="features_icon ok"></i> Перевозка опасных грузов</li>
+                <li class="features_item"><i class="features_icon ok"></i> Перевозка дорогостоящих грузов стоимостью от 500 тысяч евро и более</li>
+                <li class="features_item"><i class="features_icon ok"></i> круглосуточный мониторинг местонахождения вашего груза</li>
+            </ul>
+        </section>
+        <section class="geography">
+            <h2 class="geography_title">География перевозок:</h2>
+            <h3 class="geography_subtitle">Беларусь, россия, страны европы и азии</h3>
+            <div class="geography_wrapper tent_geography">
+                <img src="img/world_map.png" alt="Карта мира" class="world_map">
             </div>
-        </div>
-        <img src="img/boxes.png" class="callback_img" alt="">
-    </section>
+        </section>
+        <section class="gallery">
+            <h2 class="gallery_title">Галерея</h2>
+            <h3 class="gallery_subtitle">Тентованные полуприцепы</h3>
+            <div class="gallery_wrapper">
+                <a href="img/gallery/tent/tent_2.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_2.jpg" alt="" class="gallery_item">
+                </a>
+                <a href="img/gallery/tent/tent_4.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_4.jpg" alt="" class="gallery_item">
+                </a>
+                <a href="img/gallery/tent/tent_5.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_5.jpg" alt="" class="gallery_item">
+                </a>
+                <a href="img/gallery/tent/tent_6.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_6.jpg" alt="" class="gallery_item">
+                </a>
+                <a href="img/gallery/tent/tent_9.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_9.jpg" alt="" class="gallery_item">
+                </a>
+                <a href="img/gallery/tent/tent_13.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_13.jpg" alt="" class="gallery_item">
+                </a>
+                <a href="img/gallery/tent/tent_15.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_15.jpg" alt="" class="gallery_item">
+                </a>
+                <a href="img/gallery/tent/tent_16.jpg" class="gallery_link" data-lightbox="gallery">
+                    <img src="img/gallery/tent/tent_16.jpg" alt="" class="gallery_item">
+                </a>
+            </div>
+        </section>
+        <section class="callback">
+            <div class="callback_wrapper">
+                <h2 class="call_title">Для заказа перевозки <br><span class="title_big">Обращайтесь:</span></h2>
+                <div class="call_contact">
+                    <p class="call_text">Телефон: <a href="tel:+375162297134">+375 162 297 134</a>, <a href="tel:375445110077">+375 44 511 00 77</a></p>
+                    <p class="call_text">E-mail: <a href="mailto:info@btcontinental.com">info@btcontinental.com</a></p>
+                </div>
+            </div>
+            <img src="img/boxes.png" class="callback_img" alt="">
+        </section>
     </main>
     <footer class="footer">
         <img src="img/logo_big.svg" alt="" class="logo_footer">
@@ -186,7 +233,7 @@
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-<script src="https://rawgit.com/johnjcamilleri/jquery-spincrement/master/jquery.spincrement.js"></script>
 <script src="js/main.js"></script>
+<script src="js/lightbox.min.js"></script>
 
 </html>
