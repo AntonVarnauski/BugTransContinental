@@ -821,8 +821,38 @@
     margin-left: 20%;
 }
 
+.certif::before {
+    content: url(../img/icons/certif.svg);
+    margin-left: 20%;
+}
+
+.park::before {
+    content: url(../img/icons/park.svg);
+    margin-left: 20%;
+}
+
+.reis::before {
+    content: url(../img/icons/reis.svg);
+    margin-left: 20%;
+}
+
 .oil::before {
     content: url(../img/icons/oil.svg);
+    margin-left: 20%;
+}
+
+.monitor::before {
+    content: url(../img/icons/monitor.svg);
+    margin-left: 20%;
+}
+
+.strah::before {
+    content: url(../img/icons/strah.svg);
+    margin-left: 20%;
+}
+
+.contain::before {
+    content: url(../img/icons/contain.svg);
     margin-left: 20%;
 }
 
