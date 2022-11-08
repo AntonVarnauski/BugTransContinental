@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="px" height="38px" viewBox="0 0 38 38" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 18 11.000822 C 18 14.866776 14.866776 18 11.000822 18 C 7.134868 18 3.999178 14.866776 3.999178 11.000822 C 3.999178 7.134868 7.134868 3.999178 11.000822 3.999178 C 14.866776 3.999178 18 7.134868 18 11.000822 Z M 18 11.000822 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 11.000822 8.000822 C 10.606086 8.000822 10.216283 8.077303 9.851151 8.227796 C 9.488487 8.378289 9.157895 8.600329 8.879112 8.879112 C 8.600329 9.157895 8.378289 9.488487 8.227796 9.851151 C 8.077303 10.216283 8.000822 10.606086 8.000822 11.000822 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 20.000822 20.000822 L 17.000822 17.000822 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+</g>
+</svg>

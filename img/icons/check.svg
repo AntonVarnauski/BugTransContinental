@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="px" height="38px" viewBox="0 0 38 38" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 6.999178 6 L 15 6 C 16.657895 6 18 7.342105 18 9 L 18 17.000822 C 18 17.553454 17.553454 18 17.000822 18 L 6.999178 18 C 6.446546 18 6 17.553454 6 17.000822 L 6 6.999178 C 6 6.446546 6.446546 6 6.999178 6 Z M 6.999178 6 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 9 6 L 9 2.000822 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 9 21.999178 L 9 18 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 15 21.999178 L 15 18 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 21.999178 15 L 18 15 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 6 15 L 2.000822 15 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 6 9 L 2.000822 9 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(13.333333%,13.333333%,13.333333%);stroke-opacity:1;stroke-miterlimit:4;" d="M 15 3 C 15.787007 3 16.569079 3.155428 17.296875 3.456414 C 18.024671 3.757401 18.685855 4.199013 19.243421 4.756579 C 19.800987 5.314145 20.242599 5.975329 20.543586 6.703125 C 20.844572 7.430921 21 8.212993 21 9 " transform="matrix(1.583333,0,0,1.583333,0,0)"/>
+</g>
+</svg>
