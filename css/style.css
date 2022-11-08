@@ -64,6 +64,10 @@
     background-image: url(../img/perevoz_back.jpg);
 }
 
+.storage {
+    background-image: url(../img/storage_back.jpg);
+}
+
 .truck_title {
     font-size: 20px;
     color: white;
@@ -176,6 +180,17 @@
 
 .param_item {
     width: 48%;
+    background-color: white;
+    color: #0E53A7;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.param_items {
+    width: 100%;
     background-color: white;
     color: #0E53A7;
     padding: 20px;
@@ -656,6 +671,13 @@
     z-index: 2;
 }
 
+.geography_list {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 4;
+}
+
 .tent_geography {
     background-image: url(../img/tent_geo.png);
 }
@@ -671,6 +693,16 @@
 .notification {
     padding: 0 10%;
     padding-bottom: 3%;
+}
+
+.storage_notification {
+    padding: 0 10%;
+    padding-bottom: 3%;
+    margin-top: -5%;
+}
+
+.storage_notification p {
+    font-size: 20px;
 }
 
 .notification_item {
@@ -851,6 +883,22 @@
     justify-content: space-between;
     align-items: stretch;
     margin-top: 50px;
+}
+
+.geography_list .advantages_icon {
+    background-color: #FF9700;
+}
+
+.geography_list .advantages_item {
+    margin-top: 10%;
+}
+
+.geography_list .advantages_item:first-child {
+    margin-left: 25%;
+}
+
+.geography_list .advantages_item:nth-child(2) {
+    margin-left: 15%;
 }
 
 .services_item {
