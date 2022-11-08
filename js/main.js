@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    AOS.init({
+        duration: 700,
+        easing: 'ease'
+    });
     var show = true;
     var countbox = ".digits_list";
     $(window).on("scroll load resize", function() {
