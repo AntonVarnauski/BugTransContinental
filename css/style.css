@@ -1399,18 +1399,56 @@ main {
     margin-top: 5%;
 }
 
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .contacts_wrapper {
     padding: 5% 10%;
+    margin-top: 25px;
+    width: 48%;
     background-size: 55%;
     background-position: right center;
     background-repeat: no-repeat;
     position: relative;
     z-index: 2;
-    min-height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
-.contacts_wrapper:nth-child(even) {
-    background-position: left center;
+.hr::before {
+    content: url(../img/icons/hr.svg);
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+
+.eksp::before {
+    content: url(../img/icons/eksp.svg);
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.buh::before {
+    content: url(../img/icons/buh.svg);
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+
+.stanciy::before {
+    content: url(../img/icons/stanciy.svg);
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.contacts_wrapper:nth-child(odd) {
+    /* background-position: left center; */
     text-align: right;
 }
 
@@ -1424,11 +1462,12 @@ main {
     background: linear-gradient(90deg, rgb(240, 240, 240) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
-.contacts_wrapper:nth-child(even):after {
+.contacts_wrapper:nth-child(odd):after {
     background: linear-gradient(-90deg, rgb(240, 240, 240) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
-.contacts_hr {
+
+/* .contacts_hr {
     background-image: url(../img/hr.jpg);
 }
 
@@ -1438,7 +1477,7 @@ main {
 
 .contacts_sto {
     background-image: url(../img/gallery/sto/sto_1.JPG);
-}
+} */
 
 .contacts_otdel,
 .contacts_text {
