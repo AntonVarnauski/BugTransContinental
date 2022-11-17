@@ -1538,6 +1538,7 @@ main {
     border: 1px solid #888;
     width: 50%;
     position: relative;
+    padding: 2%;
 }
 
 #close {
@@ -1558,11 +1559,15 @@ main {
 .form {
     display: flex;
     flex-direction: column;
-    padding: 5%;
 }
 
 .form label {
     font-size: 18px;
+    margin-top: 10px;
+}
+
+.form_label:first-child {
+    margin-top: 0;
 }
 
 .form input,
@@ -1572,6 +1577,13 @@ main {
     border: 1px solid #FF9700;
     border-radius: 5px;
     margin-top: 5px;
+    transition: .5s;
+}
+
+.form input:focus,
+.form textarea:focus {
+    box-shadow: 0 0 10px 0 #FF9700;
+    transition: .5s;
 }
 
 .form input.btn_submit {
