@@ -1414,16 +1414,33 @@ main {
 }
 
 .contacts {
+    background-image: url(../img/hr_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_title {
+    margin-left: 5%;
+    width: 100%;
+}
+
+.contacts_list {
+    width: 49%;
+}
+
+.map_wrapper {
+    width: 49%;
 }
 
 .contacts_wrapper {
-    padding: 5% 10%;
+    padding: 5%;
     margin-top: 10px;
-    width: 49.5%;
+    width: 100%;
     background-size: 55%;
     background-position: right center;
     background-repeat: no-repeat;
@@ -1431,39 +1448,35 @@ main {
     z-index: 2;
     display: flex;
     flex-direction: column;
+    text-align: right;
 }
 
 .hr::before {
     content: url(../img/icons/hr.svg);
     position: absolute;
-    top: -60px;
-    left: 0;
+    top: -45px;
+    right: 0;
 }
 
 .eksp::before {
     content: url(../img/icons/eksp.svg);
     position: absolute;
-    top: -60px;
+    top: -45px;
     right: 0;
 }
 
 .buh::before {
     content: url(../img/icons/buh.svg);
     position: absolute;
-    top: -60px;
+    top: -45px;
     right: 0;
 }
 
 .stanciy::before {
     content: url(../img/icons/stanciy.svg);
     position: absolute;
-    top: -60px;
-    left: 0;
-}
-
-.contacts_wrapper:nth-child(odd) {
-    /* background-position: left center; */
-    text-align: right;
+    top: -45px;
+    right: 0;
 }
 
 .contacts_wrapper::after {
@@ -1473,25 +1486,8 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(90deg, rgba(255, 153, 0, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
 }
-
-.contacts_wrapper:nth-child(odd):after {
-    background: linear-gradient(-90deg, rgba(255, 153, 0, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
-}
-
-
-/* .contacts_hr {
-    background-image: url(../img/hr.jpg);
-}
-
-.contacts_buh {
-    background-image: url(../img/buhgalter.jpg);
-}
-
-.contacts_sto {
-    background-image: url(../img/gallery/sto/sto_1.JPG);
-} */
 
 .contacts_otdel,
 .contacts_text {
