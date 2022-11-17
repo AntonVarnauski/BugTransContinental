@@ -1533,10 +1533,11 @@ main {
 
 .modal {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
+    position: relative;
 }
 
 #close {
@@ -1544,9 +1545,48 @@ main {
     font-size: 26px;
     font-weight: 700;
     transition: .5s;
+    position: absolute;
+    top: 5px;
+    right: 15px;
 }
 
 #close:hover {
     color: #FF9700;
+    transition: .5s;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.form label {
+    font-size: 18px;
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #FF9700;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.form input.btn_submit {
+    align-self: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #FF9700;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.form input.btn_submit:hover {
+    box-shadow: 0 0 10px 5px #FF9700;
     transition: .5s;
 }

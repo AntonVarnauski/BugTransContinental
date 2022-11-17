@@ -237,6 +237,18 @@
     <div class="modal_wrapper" id="modal_wrapper" style="display:none">
         <div class="modal" id="modal_form">
             <span id="close">&times;</span>
+            <form action="post" class="form">
+                <label for="name">Ваше имя</label>
+                <input id="name" type="text" placeholder="Ваше имя">
+                <label for="email">Ваш Email</label>
+                <input type="email" id="email" placeholder="Ваш Email">
+                <label for="number">Ваш телефон</label>
+                <input type="tel" id="number" placeholder="Ваш телефон">
+                <label for="message">Ваш вопрос</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+                <input type="hidden">
+                <input type="submit" value="Отправить" class="btn_submit">
+            </form>
         </div>
     </div>
 </body>
