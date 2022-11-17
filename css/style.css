@@ -184,6 +184,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .param_item {
@@ -1112,6 +1113,7 @@ main {
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 20px;
+    text-align: center;
 }
 
 .partners {
@@ -1600,5 +1602,31 @@ main {
 
 .form input.btn_submit:hover {
     box-shadow: 0 0 10px 5px #FF9700;
+    transition: .5s;
+}
+
+.digits_subtitle {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.digits_notitfication {
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+.truck_text a {
+    color: white;
+    transition: .5s;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.truck_text a:hover {
+    color: #FF9700;
     transition: .5s;
 }
