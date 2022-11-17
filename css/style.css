@@ -243,6 +243,12 @@ main {
     transition: .5s;
 }
 
+.menu_item:last-child::before {
+    content: url('../img/icons/phone.svg');
+    position: relative;
+    top: 7px;
+}
+
 .menu_link:hover {
     transition: .5s;
     color: #FF9700;
@@ -1305,6 +1311,14 @@ main {
     flex-wrap: wrap;
 }
 
+.statii {
+    background-image: url(../img/hr_back.png);
+}
+
+.contact {
+    background-image: url(../img/contact_back.png);
+}
+
 .news_item {
     width: 30%;
     display: flex;
@@ -1408,8 +1422,8 @@ main {
 
 .contacts_wrapper {
     padding: 5% 10%;
-    margin-top: 25px;
-    width: 48%;
+    margin-top: 10px;
+    width: 49.5%;
     background-size: 55%;
     background-position: right center;
     background-repeat: no-repeat;
@@ -1423,14 +1437,14 @@ main {
     content: url(../img/icons/hr.svg);
     position: absolute;
     top: -60px;
-    right: 0;
+    left: 0;
 }
 
 .eksp::before {
     content: url(../img/icons/eksp.svg);
     position: absolute;
     top: -60px;
-    left: 0;
+    right: 0;
 }
 
 .buh::before {
@@ -1459,11 +1473,11 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(90deg, rgb(240, 240, 240) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(90deg, rgba(255, 153, 0, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
 .contacts_wrapper:nth-child(odd):after {
-    background: linear-gradient(-90deg, rgb(240, 240, 240) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(-90deg, rgba(255, 153, 0, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
 
