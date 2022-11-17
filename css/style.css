@@ -1517,3 +1517,7 @@ main {
     color: #FF9700;
     transition: .5s;
 }
+
+.sto_category {
+    background: linear-gradient(90deg, #FF9700 70%, rgba(0, 0, 0, 0) 100%);
+}
