@@ -23,3 +23,22 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+    let modal = document.getElementById('modal_wrapper');
+    let modal_btn = document.getElementById('modal_btn');
+    let close_modal = document.getElementById('close');
+
+    modal_btn.onclick = function(e) {
+        e.preventDefault();
+        modal.style.display = 'block';
+    };
+    close_modal.onclick = function() {
+        modal.style.display = 'none';
+    };
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});
