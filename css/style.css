@@ -1420,10 +1420,10 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 6%;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .contact_title {
@@ -1432,11 +1432,15 @@ main {
 }
 
 .contacts_list {
-    width: 49%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.map_wrapper {
-    width: 49%;
+.contacts_list .services_item {
+    width: 24%;
 }
 
 .contacts_wrapper {
@@ -1455,33 +1459,22 @@ main {
 
 .hr::before {
     content: url(../img/icons/hr.svg);
-    position: absolute;
-    top: -45px;
-    right: 0;
 }
 
 .eksp::before {
     content: url(../img/icons/eksp.svg);
-    position: absolute;
-    top: -45px;
-    right: 0;
 }
 
 .buh::before {
     content: url(../img/icons/buh.svg);
-    position: absolute;
-    top: -45px;
-    right: 0;
 }
 
 .stanciy::before {
     content: url(../img/icons/stanciy.svg);
-    position: absolute;
-    top: -45px;
-    right: 0;
 }
 
-.contacts_wrapper::after {
+
+/* .contacts_wrapper::after {
     content: '';
     position: absolute;
     top: 0;
@@ -1489,7 +1482,7 @@ main {
     right: 0;
     bottom: 0;
     background: linear-gradient(-90deg, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
-}
+} */
 
 .contacts_otdel,
 .contacts_text {
@@ -1504,6 +1497,8 @@ main {
 
 .contacts_text {
     font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .contacts_text a {
