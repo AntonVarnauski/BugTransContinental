@@ -187,6 +187,23 @@ main {
     margin-bottom: 15px;
 }
 
+.param_list.vacancy {
+    width: 48%;
+}
+
+.vacancy_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vacancy_list {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .param_item {
     width: 48%;
     background-color: white;
@@ -1473,17 +1490,6 @@ main {
     content: url(../img/icons/stanciy.svg);
 }
 
-
-/* .contacts_wrapper::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
-} */
-
 .contacts_otdel,
 .contacts_text {
     position: relative;
@@ -1618,10 +1624,10 @@ main {
     color: white;
     transition: .5s;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .truck_text a:hover {
-    color: #FF9700;
+    color: #0E53A7;
     transition: .5s;
 }
