@@ -1049,7 +1049,7 @@ main {
     text-align: center;
     margin-top: 20px;
     font-size: 22px;
-    width: 75%;
+    width: 85%;
 }
 
 .services_text {
@@ -1503,7 +1503,6 @@ main {
 
 .contacts_text {
     font-size: 20px;
-    margin-top: 15px;
     text-align: center;
 }
 
@@ -1630,4 +1629,16 @@ main {
 .truck_text a:hover {
     color: #0E53A7;
     transition: .5s;
+}
+
+.contacts_list .services_subtitle {
+    margin-bottom: 15px;
+}
+
+.param_items a:visited {
+    color: #0E53A7;
+}
+
+.param_items a:hover {
+    color: #FF9700;
 }
