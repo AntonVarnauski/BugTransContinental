@@ -3,15 +3,15 @@ $(document).ready(function() {
         duration: 700,
         easing: 'ease'
     });
-    var show = true;
-    var countbox = ".digits_list";
+    let show = true;
+    let countbox = ".digits_list";
     $(window).on("scroll load resize", function() {
         if (!show) return false;
-        var w_top = $(window).scrollTop();
-        var e_top = $(countbox).offset().top;
-        var w_height = $(window).height();
-        var d_height = $(document).height();
-        var e_height = $(countbox).outerHeight();
+        let w_top = $(window).scrollTop();
+        let e_top = $(countbox).offset().top;
+        let w_height = $(window).height();
+        let d_height = $(document).height();
+        let e_height = $(countbox).outerHeight();
         if (w_top + 800 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
             $('.digit').css('opacity', '1');
             $('.digit').spincrement({
@@ -40,5 +40,5 @@ $(document).ready(function() {
         if (event.target == modal) {
             modal.style.display = "none";
         }
-    }
+    };
 });
