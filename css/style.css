@@ -1312,6 +1312,11 @@ main {
 .sto_advantages {
     padding: 0;
     background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .advantages_sublist {
@@ -1641,4 +1646,8 @@ main {
 
 .param_items a:hover {
     color: #FF9700;
+}
+
+.sto_advantages .advantages_list {
+    width: 50%;
 }
