@@ -1646,6 +1646,7 @@ main {
 
 .param_items a:hover {
     color: #FF9700;
+    transition: .5s;
 }
 
 .sto_advantages .advantages_list {
