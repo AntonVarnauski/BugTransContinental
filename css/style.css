@@ -1659,10 +1659,17 @@ main {
     justify-content: space-between;
 }
 
-.advantages_list_2>ul>li {
+.advantages_list_2>li {
     width: 50%;
 }
 
-.advantages_list_2>ul>li:nth-child(odd) {
+.advantages_list_2>li:nth-child(even) {
     align-self: flex-end;
+}
+
+.sto_example {
+    background-image: url(../img/sto_examp.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
