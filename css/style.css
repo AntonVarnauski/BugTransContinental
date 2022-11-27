@@ -1652,3 +1652,17 @@ main {
 .sto_advantages .advantages_list {
     width: 50%;
 }
+
+.advantages_list_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantages_list_2>ul>li {
+    width: 50%;
+}
+
+.advantages_list_2>ul>li:nth-child(odd) {
+    align-self: flex-end;
+}
