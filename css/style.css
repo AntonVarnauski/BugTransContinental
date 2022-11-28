@@ -1672,4 +1672,11 @@ main {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.sto_example>.about_title,
+.sto_example .title_big {
+    color: white;
 }
