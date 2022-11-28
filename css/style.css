@@ -760,6 +760,8 @@ main {
     margin-left: 7%;
     position: relative;
     z-index: 3;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .gallery {
