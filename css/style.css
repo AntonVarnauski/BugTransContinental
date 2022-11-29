@@ -615,6 +615,22 @@ main {
     content: url(../img/icons/money.svg);
 }
 
+.personal::before {
+    content: url(../img/icons/personal.svg);
+}
+
+.work_speed::before {
+    content: url(../img/icons/work_speed.svg);
+}
+
+.garanty::before {
+    content: url(../img/icons/garanty.svg);
+}
+
+.sertif::before {
+    content: url(../img/icons/sertif.svg);
+}
+
 .narod::before {
     content: url(../img/icons/narod.svg);
 }
