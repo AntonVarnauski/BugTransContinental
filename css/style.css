@@ -1296,7 +1296,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 70%;
 }
 
 .callback_img {
@@ -1304,7 +1304,7 @@ main {
     right: 5%;
     overflow: visible;
     bottom: 0;
-    min-width: 450px;
+    min-width: 400px;
 }
 
 .call_title {
@@ -2000,6 +2000,24 @@ main .content {
     .footer_info {
         width: 55%;
     }
+    .callback_wrapper .title_big {
+        font-size: 30px;
+    }
+    .callback_img {
+        min-width: 200px;
+        right: 2%;
+    }
+    .callback_wrapper {
+        width: 75%;
+    }
+    .callback,
+    .category,
+    .gallery {
+        padding: 5%;
+    }
+    .truck_header {
+        margin-top: 70px;
+    }
 }
 
 @media (max-width:1024px) {
@@ -2016,6 +2034,19 @@ main .content {
     }
     .digit {
         font-size: 50px;
+    }
+    .callback_img {
+        display: none;
+    }
+    .callback_wrapper {
+        width: 90%;
+    }
+    .gallery_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .gallery_link:nth-child(n+7) {
+        display: none;
     }
 }
 
@@ -2052,6 +2083,22 @@ main .content {
     .footer_info {
         width: 90%;
     }
+    .truck_img {
+        display: none;
+    }
+    .truck_desc {
+        width: 100%;
+    }
+    .features_title {
+        font-size: 35px;
+    }
+    .vacancy_wrapper {
+        flex-direction: column;
+    }
+    .param_list.vacancy,
+    .vacancy_list {
+        width: 100%;
+    }
 }
 
 @media (max-width:768px) {
@@ -2065,6 +2112,19 @@ main .content {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+    }
+    .refrig_geography {
+        background: none;
+    }
+    .world_map {
+        margin-left: 3%;
+        width: 94%;
+    }
+    .geography_subtitle::after {
+        display: none;
+    }
+    .geography_subtitle {
+        font-size: 30px;
     }
     .modal {
         width: 90%;
@@ -2097,6 +2157,27 @@ main .content {
         padding: 5%;
         margin: 20px 0;
     }
+    .callback_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .call_contact {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .gallery_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .features_title {
+        font-size: 30px;
+    }
+    .features_item {
+        font-size: 18px;
+    }
+    .digits_title:before {
+        display: none;
+    }
 }
 
 @media (max-width:660px) {
@@ -2104,6 +2185,9 @@ main .content {
         height: 20px;
     }
     .about_title:after {
+        display: none;
+    }
+    .partners_title .title_big:after {
         display: none;
     }
 }
@@ -2122,5 +2206,12 @@ main .content {
     }
     .footer_social .social_item {
         margin: 0 auto;
+    }
+    .gallery_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .gallery_link:nth-child(n+5) {
+        display: none;
     }
 }
