@@ -2063,6 +2063,11 @@ main .content {
     }
     .header {
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .welcome_text {
+        margin-top: 20%;
     }
     .social_links {
         flex-direction: row;
