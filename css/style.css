@@ -2066,6 +2066,9 @@ main .content {
         justify-content: space-around;
         align-items: center;
     }
+    .modal {
+        width: 90%;
+    }
     .welcome_text {
         margin-top: 20%;
     }
